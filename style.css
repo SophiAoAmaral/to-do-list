@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color:rgb(230, 226, 226) ;
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif;;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.container{
+    background-color: white;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 10px; ;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #0c8312de;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+button:hover{
+    background-color: #3cd856de;
+}
+
+ul{
+    list-style-type:none ;
+    padding: 0;
+
+    
+}
+
+li{
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+li button{
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.editButton{
+    background-color: rgba(128, 128, 128, 0.192);
+    transition: 0.1s;
+    color: black;
+}
+
+.editButton:hover{
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+}
+
+.deleteButton:hover{
+    background-color: rgb(104, 21, 21);
+}
+
+li span{
+    flex: 1;
+    
+}
